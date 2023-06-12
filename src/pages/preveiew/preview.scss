@@ -1,0 +1,77 @@
+.preview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .preview {
+        padding: 30px;
+        // width: 300px;
+        background-color: #fff;
+
+        p {
+            display: flex;
+
+        }
+
+        &>div {
+            margin-bottom: 1rem;
+        }
+
+        .property {
+            width: 150px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+
+        .value {
+            align-self: flex-start;
+        }
+
+
+        .company-info {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+
+            p {
+                text-transform: uppercase;
+            }
+
+            .welcome {
+                transform: scale(1, 2);
+                align-self: center;
+                margin-bottom: 0.5rem;
+
+            }
+
+            img {
+                width: 150px;
+                align-self: center;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .gst-info {
+            span {
+                font-size: 14px;
+            }
+
+            .property {
+                width: 130px;
+            }
+
+            p {
+                margin-bottom: 0.4rem;
+            }
+
+            .property,
+            .value {
+                transform: scale(1, 1.6);
+            }
+        }
+
+    }
+}

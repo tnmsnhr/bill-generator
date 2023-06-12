@@ -1,0 +1,26 @@
+.layout-container {
+    height: 100vh;
+
+    .layout-sidebar {
+        width: 120px;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        border-right: 1px solid #D1CBE8;
+
+    }
+
+    .navbar {
+        position: fixed;
+        width: 100%;
+    }
+
+    .content {
+        margin-left: 120px;
+        overflow-y: auto;
+        height: 100%;
+        padding-top: 150px;
+    }
+}

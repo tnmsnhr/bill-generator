@@ -1,0 +1,24 @@
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+
+    &--brand {
+        background-color: #D1CBE8;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.2);
+
+        &-icon {
+            color: #50449C;
+            ;
+        }
+    }
+
+    &--items {}
+
+    &--bottom {}
+}
